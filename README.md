@@ -26,6 +26,16 @@ webpack
 npm test
 ```
 
+## Preview
+
+While developing, you'll likely want to preview your changes locally.
+
+```
+webpack --watch
+python -m SimpleHTTPServer
+open http://localhost:8000
+```
+
 ## Deploy
 
 You can deploy with `surge.sh`, or with your favorite method of deploying static sites.
